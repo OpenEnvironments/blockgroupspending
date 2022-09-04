@@ -42,3 +42,9 @@ only the largest MSAs are involved.
 
 Metropolitan Statistical Areas represent city geographies that may span both states and counties. The US Office
 of Management and Budget (OMB) defines 384 of these, but the BLS only uses a select two dozen largest cities.
+
+## Code
+- *MSA* downloads and combines the MSA level spreadsheets, by region, with states as columns in each.
+- *PUMD* downloads, reads and interprets the PUMD datasets by year.
+- *models* contains the projection and penetration models, applies them and writes results to csv file.
+
