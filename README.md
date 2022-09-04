@@ -5,9 +5,9 @@ U.S. Consumer Expenditures by Census Block Groups
 People and households express their opinions in many ways, but critically in their 
 spending decisions. In th United States, the Bureau of Labor Statistics (BLS) is
 responsible for publishing its Consumer Expenditure Survey (https://www.bls.gov/cex/).
-This publication provides estimates from the national to state level and 25 largest MSAs.
-This level of geography often renders the estimates overly aggregated, limited to the
-state level with a select major MSAs.
+This publication provides national level estimates in addition to select states
+and select 25 largest MSAs. This level of geography often renders the estimates overly 
+aggregated, limited to for microeconomic analysis and geography appending.
 
 The BLS also provides a sample of the original survey responses to allow lower level
 modelling. Its Public Use Microdata (PUMD) does not include geography, to protect the
@@ -20,7 +20,7 @@ to 3,000 residents in size. With Block Group codes, CEX spending can be merged w
 full range of Census estimates in either the American Community Survey or Decennial
 publications.
 
-The first of the project models distributes the US and State totals down to Block Groups, 
+The first of the projection models distributes the US and State totals down to Block Groups, 
 so each begins with a total consumer spending amount. The second model predicts the 
 allocation of a Block Group's total across spending categories.
 
