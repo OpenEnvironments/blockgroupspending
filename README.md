@@ -2,8 +2,8 @@
 U.S. Consumer Expenditures by Census Block Groups
 ## Opportunity
 
-People and households express their opinions in many ways, but critically in their 
-spending decisions. In th United States, the Bureau of Labor Statistics (BLS) is
+Americans express themselves in many ways, but critically in their 
+*income* and *spending* decisions. In th United States, the Bureau of Labor Statistics (BLS) is
 responsible for publishing its Consumer Expenditure Survey (https://www.bls.gov/cex/).
 This publication provides national level estimates in addition to select states
 and select 25 largest MSAs. This level of geography often renders the estimates overly 
