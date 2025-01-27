@@ -19,8 +19,8 @@ The publication is made together with the source python code and notebooks used 
 ## Model details
 --
 The CEX publication includes many files reflecting 
-# detailed 'diary' surveys capturing spend on thousands of items every two weeks
-# family 'interviews' collecting household spending over the previous 3 months
+* detailed 'diary' surveys capturing spend on thousands of items every two weeks
+* family 'interviews' collecting household spending over the previous 3 months
 
 The models are trained upon the latter, 'FMLI' files. The regression model uses extreme gradient boosting, or XGBoost methods that apply many decision trees to iteratively correct prediction error.  The subcategory models also use tree based methods, trained upon a the family interview details. The spending variables are named, following the BLS' CEX convention:
 |Variable|Definition|2023|pct| 
