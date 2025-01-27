@@ -1,0 +1,24 @@
+﻿﻿Area,OMB MSA 1,Short,Long,Other,Population,DensitySqMiles
+S11A,14460,Boston,"Boston-Cambridge-Nashua, MA-NH",Boston-Cambridge-Quincy,4552402,3487.409394
+S12A,35620,New York,"New York-Newark-Jersey City, NY-NJ-PA","New York-Northern New Jersey-Long Island, NY-NJ-PA",18897109,6686.89994
+S12B,37980,Philadelphia,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD","Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",5965343,4602.101334
+S23A,16980,Chicago,"Chicago-Naperville-Elgin, IL-IN-WI","Chicago-Joliet-Naperville, IL-IN-WI",9461105,7196.805145
+S23B,19820,Detroit,"Detroit-Warren-Dearborn, MI","Detroit-Warren-Livonia, MI",4296250,3888.404798
+S24A,33460,Minneapolis-St. Paul,"Minneapolis-St. Paul-Bloomington, MN-WI","Minneapolis-St. Paul-Bloomington, MN-WI",3279833,6027.170408
+S24B,41180,St. Louis,"St. Louis, MO-IL","St. Louis, MO-IL",2812896,8623.241572
+S35A,47900,Washington D.C.,"Washington-Arlington-Alexandria, DC-VA-MD-WV","Washington-Arlington-Alexandria, DC-VA-MD-WV",5582170,5598.31968
+S35B,33100,Miami,"Miami-Fort Lauderdale-West Palm Beach, FL","Miami-Fort Lauderdale-Pompano Beach, FL",5564635,5077.264172
+S35C,12060,Atlanta,"Atlanta-Sandy Springs-Roswell, GA","Atlanta-Sandy Springs-Marietta, GA",5268860,8338.541068
+S35D,45300,Tampa,"Tampa-St. Petersburg-Clearwater, FL","Tampa-St. Petersburg-Clearwater, FL",2783243,2513.437127
+S35E,12580,Baltimore,"Baltimore-Columbia-Towson, MD","Baltimore-Towson, MD",2710489,2601.479729
+S37A,19100,Dallas-Fort Worth,"Dallas-Fort Worth-Arlington, TX","Dallas-Fort Worth-Arlington, TX",6371773,8927.502144
+S37B,26420,Houston,"Houston-The Woodlands-Sugar Land, TX","Houston-Sugar Land-Baytown, TX",5946800,8827.487817
+S48A,38060,Phoenix,"Phoenix-Mesa-Scottsdale, AZ","Phoenix-Mesa-Glendale, AZ",4192887,14565.75467
+S48B,19740,Denver,"Denver-Aurora-Lakewood, CO","Denver-Aurora-Broomfield, CO",2543482,8346.059378
+S49A,31100,Los Angeles,"Los Angeles-Long Beach-Anaheim, CA","Los Angeles-Long Beach-Santa Ana, CA",12828837,4848.451318
+S49B,41860,San Francisco,"San Francisco-Oakland-Hayward, CA","San Francisco-Oakland-Fremont, CA",4335391,2470.541275
+S49C,40140,Riverside,"Riverside-San Bernardino-Ontario, CA","Riverside-San Bernardino-Ontario, CA",4224851,27263.41827
+S49D,42660,Seattle,"Seattle-Tacoma-Bellevue, WA","Seattle-Tacoma-Bellevue, WA",3439809,5872.347819
+S49E,41740,San Diego,"San Diego-Carlsbad, CA","San Diego-Carlsbad-San Marcos, CA",3095313,4206.629779
+S49F,26180,Honolulu,"Honolulu, HI","Honolulu, HI",953207,600.7429961
+S49G,11260,Anchorage,"Anchorage, AK","Anchorage, AK",380821,26312.58105
