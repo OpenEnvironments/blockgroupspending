@@ -31,14 +31,6 @@ The models are trained upon the latter, 'FMLI' files. The regression model uses 
 
 Of these 15 subcategories, several are very small. For example,the top level subcategories for all spending includes reading materials, tobacco products and alcoholic beverages - all costs that have declined precipitously in the digital age. As a result, this publication is limited to the largest categories, groupig the smaller ones into an 'other' aggregate.
 
-    #    TOTEXP 10.40 Trillion
-    #    FOOD    1.34
-    #    HOUS    3.42
-    #    TRANS   1.77
-    #    HEALTH  0.83
-    #    RETPEN  1.29
-    #    OTHER   1.75
-
 The spending variables are named, following the BLS' CEX convention (in Trillions of dollars):
 |Variable|Definition|2023|
 |---|---|---|
