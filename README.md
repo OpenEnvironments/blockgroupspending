@@ -17,29 +17,38 @@ Understanding the results requires awareness of the BLS' CEX data structures. Th
 The publication is made together with the source python code and notebooks used for repeatability. The materials are maintained under version control at https://github.com/OpenEnvironments/blockgroupspending. All feedback and development requests are welcome.
 
 ## Model details
---
+---
 The CEX publication includes many files reflecting 
 * detailed 'diary' surveys capturing spend on thousands of items every two weeks
 * family 'interviews' collecting household spending over the previous 3 months
 
-The models are trained upon the latter, 'FMLI' files. The regression model uses extreme gradient boosting, or XGBoost methods that apply many decision trees to iteratively correct prediction error.  The subcategory models also use tree based methods, trained upon a the family interview details. The spending variables are named, following the BLS' CEX convention:
-|Variable|Definition|2023|pct| 
-|---|---|---|---|
-|TOTEXP|Average annual expenditures|77280||
-|FOOD|Food|9985|0.129|
-|ALCBEV|Alcoholic beverages|637|0.008|
-|HOUS|Housing|25436|0.329|
-|APPAR|Apparel and services|2041|0.026|
-|TRANS|Transportation|13174|0.17|
-|HEALTH|Healthcare|6159|0.08|
-|ENTERT|Entertainment|3635|0.047|
-|PERSCA|Personal care products and services|950|0.012|
-|READ|Reading|117|0.002|
-|EDUCA|Education|1656|0.021|
-|TOBACC|Tobacco products and smoking supplies|370|0.005|
-|MISC|Miscellaneous|1184|0.015|
-|CASHCO|Cash contributions|2378|0.031|
-|RETPEN|Personal insurance and pensions|9556|0.124|
+From these the BLS CEX estimates 
+* total number of 'consumer units', a BLS variation of a household,
+* total consumer expenditures
+* 15 additional subcategories of spending 
+
+The models are trained upon the latter, 'FMLI' files. The regression model uses extreme gradient boosting, or XGBoost methods that apply many decision trees to iteratively correct prediction error.  The subcategory models also use tree based methods, trained upon a the family interview details. 
+
+Of these 15 subcategories, several are very small. For example,the top level subcategories for all spending includes reading materials, tobacco products and alcoholic beverages - all costs that have declined precipitously in the digital age. As a result, this publication is limited to the largest categories, groupig the smaller ones into an 'other' aggregate.
+
+    #    TOTEXP 10.40 Trillion
+    #    FOOD    1.34
+    #    HOUS    3.42
+    #    TRANS   1.77
+    #    HEALTH  0.83
+    #    RETPEN  1.29
+    #    OTHER   1.75
+
+The spending variables are named, following the BLS' CEX convention (in Trillions of dollars):
+|Variable|Definition|2023|
+|---|---|---|
+|TOTEXP|Total expenditures|10.40|
+|FOOD|Food|1.34|
+|HOUS|Housing|3.42|
+|TRANS|Transportation|1.77|
+|HEALTH|Healthcare|0.83|
+|RETPEN|Retirement & pensions|1.29|
+|OTHER|Other spending|1.75|
 
 During the exploratory phase of this effort, ensemble modelling was evaluated finding that different groupings of income did not appreciably change model estimates while racial and ethnic categories did.  As a result, the models are case for major races (White, African American, Asian, Other) and Hispanic.
 
